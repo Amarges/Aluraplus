@@ -1,8 +1,8 @@
 /*Variáveis das cores e da fonte*/
 :root{
     --branco-principal:#FFFFFF;
-    --botao-azul:#167BF7;
-    --cor-de-fundo:#00030C;
+    --botao-azul:hsl(213, 93%, 53%);
+    --cor-de-fundo:#00030ca1;
     --cinza-segundario:#C0C0C0;
     --fonte-principal:'Inter';
 }
