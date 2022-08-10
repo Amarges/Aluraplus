@@ -1,0 +1,170 @@
+/*Variáveis das cores e da fonte*/
+:root{
+    --branco-principal:#FFFFFF;
+    --botao-azul:#167BF7;
+    --cor-de-fundo:#00030C;
+    --cinza-segundario:#C0C0C0;
+    --fonte-principal:'Inter';
+}
+
+/*Corpo do Código*/
+body{
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/*Usado para pegar o código inteiro*/
+*{
+    /*margem*/
+    margin: 0;
+    /*borda*/
+    padding: 0;
+}
+
+/*Primeira sessão */
+
+/*Classe principal*/
+.principal{
+    background-image: url("/img/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+} 
+/*Container da página*/
+.container{
+    height: 100vh;
+    display: grid ;
+    grid-template-columns: 50% 50%;
+}
+/*Classe dos botões*/
+/*primeiro botão*/
+.container_botao{
+    background-color: var(--botao-azul);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--branco-principal);
+    display: block;
+    text-decoration: none;
+    margin-bottom: 1em;
+}
+/*segundo botão*/
+.botao_secundario{
+    background-color: transparent;
+    border: 2px solid var(--branco-principal);
+}
+
+/*Classe do texto-titulo*/
+.container_titulo{
+    font-size: 28px;
+    font-weight: 700;
+}
+/*Classe do texto-aviso*/
+.container_aviso{
+    font-size: 12px;
+    color: var(--cinza-segundario);
+}
+/*Classe da caixa - Div */
+.container_caixa{
+    margin: 0 6em;
+}
+
+/*Classe imagem*/
+.container_imagem{
+    margin: 1em 0 2em 0;
+}
+
+/*-----------------------*/
+
+/*Segunda seção*/
+
+/*Classe da imagem*/
+.secundario_imagem{
+    width: 80%;
+}
+/*Classe da descrição*/
+.container_descricao{
+    padding: 2em;
+}
+/*Classe do titulo */
+.descricao_titulo{
+    font-weight: 700;
+    font-size: 48px;
+    margin-bottom: 0.1em;
+}
+/*Classe da descrição*/
+.descricao_texto{
+    color: var(--cinza-segundario);
+}
+/*Classe secundario - muda todos as seções(texto)*/
+.secundario{
+    align-items: center;
+    margin: 0 10em;
+}
+
+/*-----------------------*/
+
+/*Terceira seção*/
+
+/*Classe do botão*/
+.secundario_botao{
+    margin-top: 1em;
+    display: inline-block;
+}
+
+/*-----------------------*/
+
+/*Quarta seção*/
+
+/*Classe da lista para o texto*/
+.dispositivos{
+    text-align: center;
+}
+/*Classe dos itens da lista*/
+.dispositivos_lista{
+    display: flex;
+    justify-content: center;
+    margin: 5em 0;
+    list-style-type: none;
+}
+/*Classe do título*/
+.dispositivos_titulo{
+    font-size: 48px;
+}
+/*Classe dos itens da lista*/
+.lista_item{
+    font-size: 32px;
+}
+
+/*-----------------------*/
+
+/*Rodapé*/
+
+/*Classe do rodape*/
+.rodape{
+    text-align: center;
+    margin: 5em 3em;
+}
+
+/*Classe da lista*/
+.rodape_lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 1em;
+}
+
+/*Classe dos itens da lista (usa-se A para identificar que é uma ancora)*/
+.lista_link a{
+    text-decoration: none;
+    color: var(--branco-principal);
+    margin-left: 1em;
+}
+/*Classe do primeiro paragrafo*/
+.paragrafo_texto{
+    color: var(--cinza-segundario);
+    margin: 1em 0;
+}
